@@ -4,7 +4,7 @@ class UserTest extends PHPUnit_Framework_TestCase
 {
     public function testTalk() {
         $user = new User();
-        $expected = "Heo world!";
+        $expected = "Hello world!";
         $actual = $user->talk();
         $this->assertEquals($expected, $actual);
     }
